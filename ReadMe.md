@@ -30,12 +30,12 @@ In python we can seen the erro message as maximum recursion depth was reached
 The stack data structure can work as FILO or LIFO fashion 
 ```
 
-#### What is the recursion limit ?
+#### 5. What is the recursion limit ?
 ```commandline
 In python the default recursion limit was 1000 , 
 ```
 
-#### How we can increase the recursion limit 
+#### 6. How we can increase the recursion limit 
 ```commandline
 By using sys module we get or set the recursion limit 
 
