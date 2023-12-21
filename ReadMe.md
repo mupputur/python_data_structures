@@ -30,12 +30,12 @@ In python we can seen the erro message as maximum recursion depth was reached
 The stack data structure can work as FILO or LIFO fashion 
 ```
 
-#### What is the recursion limit ?
+#### 5. What is the recursion limit ?
 ```commandline
 In python the default recursion limit was 1000 , 
 ```
 
-#### How we can increase the recursion limit 
+#### 6. How we can increase the recursion limit 
 ```commandline
 By using sys module we get or set the recursion limit 
 
@@ -44,7 +44,7 @@ To get :  sys.getrecursionlimit()
 To set :  sys.setrecursionlimit()
 ```
 
-#### When we create an object or when we create an instance of a class what will happen?
+#### 6. When we create an object or when we create an instance of a class what will happen?
 ```commandline
 At the time of object creation the __init__ method or constrcutor 
 can be invoked , the constructor can be used to initlize the 
@@ -58,4 +58,6 @@ For example , when we have customer class or object
 customer will having sevaral attributes but we can represent 
 customer object as his name and id when we directly calls the object 
 ```
+
+#### 8. What is the differance between __str__ and __repr__?
     
