@@ -44,4 +44,18 @@ To get :  sys.getrecursionlimit()
 To set :  sys.setrecursionlimit()
 ```
 
+#### When we create an object or when we create an instance of a class what will happen?
+```commandline
+At the time of object creation the __init__ method or constrcutor 
+can be invoked , the constructor can be used to initlize the 
+common attributes of an object 
+```
+
+#### What is __repr__ method does?
+```commandline
+To represent an object we can override __repr__ method
+For example , when we have customer class or object 
+customer will having sevaral attributes but we can represent 
+customer object as his name and id when we directly calls the object 
+```
     
